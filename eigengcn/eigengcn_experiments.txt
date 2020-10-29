@@ -1,0 +1,39 @@
+python train.py --bmname=AIDS  --num-classes=2 --batch-size=15 --max-nodes=1000 --min_nodes=0 --num_pool_matrix=1 --num_pool_final_matrix=1 --dropout=0.5  --shuffle=0 --lr=0.001  --output-dim=32 --hidden-dim=32 --pred_hidden=32  --weight_decay=0  --num_shuffle=10  --num-gc-layers=2 --mask=1  --norm='l2' --cuda=2   --pool_sizes=10 --train-ratio=0.8 --with_test=1 --epochs=50 >> Results/AIDS.txt
+
+python train.py --bmname=AIDS  --num-classes=2 --batch-size=15 --max-nodes=1000 --min_nodes=0 --num_pool_matrix=1 --num_pool_final_matrix=1 --dropout=0.5  --shuffle=0 --lr=0.001  --output-dim=32 --hidden-dim=32 --pred_hidden=32  --weight_decay=0  --num_shuffle=10  --num-gc-layers=2 --mask=1  --norm='l2' --cuda=2   --pool_sizes=10 --train-ratio=0.8 --with_test=1 --epochs=5
+
+
+python train.py --bmname=AIDS  --num-classes=2 --batch-size=15 --max-nodes=130 --min_nodes=0 --num_pool_matrix=1 --num_pool_final_matrix=1 --dropout=0.5  --shuffle=0 --lr=0.001  --output-dim=64 --hidden-dim=64 --pred_hidden=64  --weight_decay=0  --num_shuffle=10  --num-gc-layers=2 --mask=1  --norm='l2' --cuda=2   --pool_sizes=10 --train-ratio=0.8 --with_test=1 --epochs=50 >> Results/AIDS.txt
+
+python train.py --bmname=DD  --num-classes=2 --batch-size=15 --max-nodes=130 --min_nodes=0 --num_pool_matrix=1 --num_pool_final_matrix=1 --dropout=0.5  --shuffle=0 --lr=0.001  --output-dim=32 --hidden-dim=32 --pred_hidden=32  --weight_decay=0  --num_shuffle=10  --num-gc-layers=2 --mask=1  --norm='l2' --cuda=2   --pool_sizes=10 --train-ratio=0.8 --with_test=1 --epochs=50 >> Results/DD.txt
+
+python train.py --bmname=DD  --num-classes=2 --batch-size=15 --max-nodes=130 --min_nodes=0 --num_pool_matrix=1 --num_pool_final_matrix=1 --dropout=0.5  --shuffle=0 --lr=0.001  --output-dim=64 --hidden-dim=64 --pred_hidden=64  --weight_decay=0  --num_shuffle=10  --num-gc-layers=2 --mask=1  --norm='l2' --cuda=2   --pool_sizes=10 --train-ratio=0.8 --with_test=1 --epochs=50 >> Results/DD.txt
+
+python train.py --bmname=MUTAG  --num-classes=2 --batch-size=15 --max-nodes=130 --min_nodes=0 --num_pool_matrix=1 --num_pool_final_matrix=1 --dropout=0.5  --shuffle=0 --lr=0.001  --output-dim=32 --hidden-dim=32 --pred_hidden=32  --weight_decay=0  --num_shuffle=10  --num-gc-layers=2 --mask=1  --norm='l2' --cuda=2   --pool_sizes=10 --train-ratio=0.8 --with_test=1 --epochs=50 >> Results/MUTAG.txt
+
+python train.py --bmname=AIDS  --num-classes=2 --batch-size=15 --max-nodes=1000 --min_nodes=0 --num_pool_matrix=1 --num_pool_final_matrix=1 --dropout=0.5  --shuffle=0 --lr=0.001  --output-dim=32 --hidden-dim=32 --pred_hidden=32  --weight_decay=0  --num_shuffle=10  --num-gc-layers=2 --mask=1  --norm='l2' --cuda=2   --pool_sizes=10 --train-ratio=0.8 --with_test=1 --epochs=5
+
+python train.py --bmname=MUTAG  --num-classes=2 --batch-size=15 --max-nodes=130 --min_nodes=0 --num_pool_matrix=1 --num_pool_final_matrix=1 --dropout=0.5  --shuffle=0 --lr=0.001  --output-dim=64 --hidden-dim=64 --pred_hidden=64  --weight_decay=0  --num_shuffle=10  --num-gc-layers=2 --mask=1  --norm='l2' --cuda=2   --pool_sizes=10 --train-ratio=0.8 --with_test=1 --epochs=50 >> Results/MUTAG.txt
+
+python train.py --bmname=Mutagenicity  --num-classes=2 --batch-size=15 --max-nodes=130 --min_nodes=0 --num_pool_matrix=1 --num_pool_final_matrix=1 --dropout=0.5  --shuffle=0 --lr=0.001  --output-dim=32 --hidden-dim=32 --pred_hidden=32  --weight_decay=0  --num_shuffle=10  --num-gc-layers=2 --mask=1  --norm='l2' --cuda=2   --pool_sizes=10 --train-ratio=0.8 --with_test=1 --epochs=50 >> Results/Mutagenicity.txt
+
+python train.py --bmname=Mutagenicity  --num-classes=2 --batch-size=15 --max-nodes=130 --min_nodes=0 --num_pool_matrix=1 --num_pool_final_matrix=1 --dropout=0.5  --shuffle=0 --lr=0.001  --output-dim=64 --hidden-dim=64 --pred_hidden=64  --weight_decay=0  --num_shuffle=10  --num-gc-layers=2 --mask=1  --norm='l2' --cuda=2   --pool_sizes=10 --train-ratio=0.8 --with_test=1 --epochs=50 >> Results/Mutagenicity.txt
+
+python train.py --bmname=PTC_FM  --num-classes=2 --batch-size=15 --max-nodes=130 --min_nodes=0 --num_pool_matrix=1 --num_pool_final_matrix=1 --dropout=0.5  --shuffle=0 --lr=0.001  --output-dim=32 --hidden-dim=32 --pred_hidden=32  --weight_decay=0  --num_shuffle=10  --num-gc-layers=2 --mask=1  --norm='l2' --cuda=2   --pool_sizes=10 --train-ratio=0.8 --with_test=1 --epochs=50 >> Results/PTC_FM.txt
+
+python train.py --bmname=PTC_FM  --num-classes=2 --batch-size=15 --max-nodes=130 --min_nodes=0 --num_pool_matrix=1 --num_pool_final_matrix=1 --dropout=0.5  --shuffle=0 --lr=0.001  --output-dim=64 --hidden-dim=64 --pred_hidden=64  --weight_decay=0  --num_shuffle=10  --num-gc-layers=2 --mask=1  --norm='l2' --cuda=2   --pool_sizes=10 --train-ratio=0.8 --with_test=1 --epochs=50 >> Results/PTC_FM.txt
+
+python train.py --bmname=PROTEINS  --num-classes=2 --batch-size=15 --max-nodes=130 --min_nodes=0 --num_pool_matrix=1 --num_pool_final_matrix=1 --dropout=0.5  --shuffle=0 --lr=0.001  --output-dim=32 --hidden-dim=32 --pred_hidden=32  --weight_decay=0  --num_shuffle=10  --num-gc-layers=2 --mask=1  --norm='l2' --cuda=2   --pool_sizes=10 --train-ratio=0.8 --with_test=1 --epochs=50 >> Results/PROTEINS.txt
+
+python train.py --bmname=PROTEINS  --num-classes=2 --batch-size=15 --max-nodes=130 --min_nodes=0 --num_pool_matrix=1 --num_pool_final_matrix=1 --dropout=0.5  --shuffle=0 --lr=0.001  --output-dim=64 --hidden-dim=64 --pred_hidden=64  --weight_decay=0  --num_shuffle=10  --num-gc-layers=2 --mask=1  --norm='l2' --cuda=2   --pool_sizes=10 --train-ratio=0.8 --with_test=1 --epochs=50 >> Results/PROTEINS.txt
+
+python train.py --bmname=IMDB_BINARY  --num-classes=2 --batch-size=15 --max-nodes=130 --min_nodes=0 --num_pool_matrix=1 --num_pool_final_matrix=1 --dropout=0.5  --shuffle=0 --lr=0.001  --output-dim=32 --hidden-dim=32 --pred_hidden=32  --weight_decay=0  --num_shuffle=10  --num-gc-layers=2 --mask=1  --norm='l2' --cuda=2   --pool_sizes=10 --train-ratio=0.8 --with_test=1 --epochs=50 >> Results/IMDB_BINARY.txt
+
+python train.py --bmname=IMDB_BINARY  --num-classes=2 --batch-size=15 --max-nodes=130 --min_nodes=0 --num_pool_matrix=1 --num_pool_final_matrix=1 --dropout=0.5  --shuffle=0 --lr=0.001  --output-dim=64 --hidden-dim=64 --pred_hidden=64  --weight_decay=0  --num_shuffle=10  --num-gc-layers=2 --mask=1  --norm='l2' --cuda=2   --pool_sizes=10 --train-ratio=0.8 --with_test=1 --epochs=50 >> Results/IMDB_BINARY.txt
+
+python train.py --bmname=IMDB_MULTI  --num-classes=3 --batch-size=15 --max-nodes=130 --min_nodes=0 --num_pool_matrix=1 --num_pool_final_matrix=1 --dropout=0.5  --shuffle=0 --lr=0.001  --output-dim=32 --hidden-dim=32 --pred_hidden=32  --weight_decay=0  --num_shuffle=10  --num-gc-layers=2 --mask=1  --norm='l2' --cuda=2   --pool_sizes=10 --train-ratio=0.8 --with_test=1 --epochs=50 >> Results/IMDB_MULTI.txt
+
+python train.py --bmname=IMDB_MULTI  --num-classes=3 --batch-size=15 --max-nodes=130 --min_nodes=0 --num_pool_matrix=1 --num_pool_final_matrix=1 --dropout=0.5  --shuffle=0 --lr=0.001  --output-dim=64 --hidden-dim=64 --pred_hidden=64  --weight_decay=0  --num_shuffle=10  --num-gc-layers=2 --mask=1  --norm='l2' --cuda=2   --pool_sizes=10 --train-ratio=0.8 --with_test=1 --epochs=50 >> Results/IMDB_MULTI.txt
+
+
+

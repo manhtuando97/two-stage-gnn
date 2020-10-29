@@ -1,0 +1,7 @@
+python train.py --bmname=ENZYMES  --num-classes=6 --batch-size=30 --max-nodes=130 --min_nodes=0 --num_pool_matrix=1 --num_pool_final_matrix=1 --dropout=0.5  --shuffle=0 --lr=0.001  --output-dim=128 --hidden-dim=128 --pred_hidden=256  --weight_decay=0  --num_shuffle=10  --num-gc-layers=2 --mask=1  --norm='l2' --cuda=0   --pool_sizes=10 --train-ratio=0.8 --with_test=1 --epochs=9
+
+python train.py --bmname=DD  --num-classes=2 --batch-size=15 --max-nodes=130 --min_nodes=0 --num_pool_matrix=1 --num_pool_final_matrix=1 --dropout=0.5  --shuffle=0 --lr=0.001  --output-dim=32 --hidden-dim=32 --pred_hidden=32  --weight_decay=0  --num_shuffle=10  --num-gc-layers=2 --mask=1  --norm='l2' --cuda=2   --pool_sizes=10 --train-ratio=0.8 --with_test=1 --epochs=50
+
+python train_triplet.py --bmname=DD  --num-classes=2 --batch-size=15 --max-nodes=130 --min_nodes=0 --num_pool_matrix=1 --num_pool_final_matrix=1 --dropout=0.5  --shuffle=0 --lr=0.001  --output-dim=32 --hidden-dim=32 --pred_hidden=32  --weight_decay=0  --num_shuffle=10  --num-gc-layers=2 --mask=1  --norm='l2' --cuda=2   --pool_sizes=10 --train-ratio=0.8 --with_test=1 --epochs=50
+
+python train_triplet_pre_train.py --bmname=DD  --num-classes=2 --batch-size=15 --max-nodes=130 --min_nodes=0 --num_pool_matrix=1 --num_pool_final_matrix=1 --dropout=0.5  --shuffle=0 --lr=0.001  --output-dim=32 --hidden-dim=32 --pred_hidden=32  --weight_decay=0  --num_shuffle=10  --num-gc-layers=2 --mask=1  --norm='l2' --cuda=2   --pool_sizes=10 --train-ratio=0.8 --with_test=1 --epochs=50
