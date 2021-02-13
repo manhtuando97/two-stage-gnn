@@ -1,0 +1,38 @@
+# original setting
+python -m train [--bmname=BMNAME] [--num_epochs=EPOCHS] [--input-dim=INPUT] [--hidden-dim=HIDDEN] [--output-dim=OUTPUT] [--num-classes=CLASSES] [--method=METHOD]
+
+# 2stg setting
+python -m train_triplet [--bmname=BMNAME] [--num_epochs=EPOCHS] [--input-dim=INPUT] [--hidden-dim=HIDDEN] [--output-dim=OUTPUT] [--num-classes=CLASSES] [--method=METHOD] [--alpha=ALPHA] 
+
+# 2stg+ setting
+python -m train_triplet_pre_train [--bmname=BMNAME] [--num_epochs=EPOCHS] [--input-dim=INPUT] [--hidden-dim=HIDDEN] [--output-dim=OUTPUT]  [--num-classes=CLASSES] [--method=METHOD] [--alpha=ALPHA]
+
+
+arguments:
+  --bmname		Dataset to test the GNN architecture on. 
+  --num_epochs  	Number of epochs to run.
+  --input-dim		Input dimension.
+  --hidden-dim		Hidden dimension.
+  --output-dim		Output dimension.
+  --num-classes		Number of classes.
+  --method		The GNN architecture to test.
+			--method=base (GraphSage)
+	 		--method=GAT (GAT)
+	 		--method=soft-assign (DiffPool)
+  --alpha		The margin of the triplet loss.
+
+
+For example:
+
+# original setting
+python -m train  --bmname=DD--num_epochs=20  ---input-dim=32 --hidden-dim=32 --output-dim=32 --num-classes=2 --method=base
+
+# 2stg setting
+python -m train_triplet  --bmname=DD --num_epochs=20  --input-dim=32 --hidden-dim=32 --output-dim=32 --num-classes=2 --method=base --alpha=1.5 
+
+# 2stg+ setting
+python -m train_triplet_pre_train  --bmname=MUTAG  --num_epochs=20  --input-dim=32 --hidden-dim=32 --output-dim=32 --num-classes=2 --method=base --alpha=1.5 
+
+
+
+ 

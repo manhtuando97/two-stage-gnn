@@ -1,0 +1,37 @@
+# original setting
+python -m train [--dataset=BMNAME] [--epochs=EPOCHS] [--dropout_ratio=DROPOUT] [--pooling_ratio=POOL] [--num_features=INPUT] [--nhid=HIDDEN] [--final_dim=OUTPUT]
+
+# 2stg setting
+python -m train_triplet [--dataset=BMNAME] [--epochs=EPOCHS] [--dropout_ratio=DROPOUT] [--pooling_ratio=POOL [--num_features=INPUT] [--nhid=HIDDEN] [--final_dim=OUTPUT] [--alpha=ALPHA] 
+
+# 2stg+ setting
+python -m train_triplet_pre_train [--dataset=BMNAME] [--epochs=EPOCHS]  [--dropout_ratio=DROPOUT] [--pooling_ratio=POOL] [--num_features=INPUT] [--nhid=HIDDEN] [--final_dim=OUTPUT] [--alpha=ALPHA] 
+
+
+arguments:
+  --dataset		Dataset to test the GNN architecture on. 
+  --epochs  		Number of epochs to run.
+  --dropout_ratio	Probability of dropout.
+  --pooling_ratio	Ratio of the new number of nodes after pooling.
+  --num_features	Input dimension.
+  --nhid		Hidden dimension.
+  --final_dim		Output dimension.
+  --alpha		The margin of the triplet loss.
+ 
+# For example
+
+# Original setting
+python train.py --dataset=DD --epochs=100 --dropout_ratio=0.5 --pooling_ratio=0.5 --num_features=32 --nhid=32 --final_dim=32
+
+# 2stg setting
+python train_triplet.py --dataset=DD --epochs=100 --dropout_ratio=0.5 --pooling_ratio=0.5 --num_features=32 --nhid=32 --final_dim=32 --alpha=1.5
+
+# 2stg+ setting
+python train_triplet_pre_train.py --dataset=DD --epochs=100 --dropout_ratio=0.5 --pooling_ratio=0.5 --num_features=32 --nhid=32 --final_dim=32 --alpha=1.5
+
+
+
+
+ 
+
+
