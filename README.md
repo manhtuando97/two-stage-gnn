@@ -34,4 +34,7 @@ The commands to run to train each GNN architecture on the 3 settings (original, 
 
 
 
+## Datasets
+All datasets used in this work are available in this anonymous directory: https://bit.ly/3sJ6t4L 
+
 
