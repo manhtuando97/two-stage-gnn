@@ -23,7 +23,6 @@ torch-geometric 1.16.3
 
 
 ## Code
-** The code related to each GNN architecture is available in each corresponding folder as follows:
 ```
 Code
   |__eigengcn
@@ -35,6 +34,6 @@ The commands to run to train each GNN architecture on the 3 settings (original, 
 
 
 ## Datasets
-All datasets used in this work are available in this anonymous directory: https://bit.ly/3sJ6t4L 
+All datasets used in this work are available in this anonymous directory: https://bit.ly/36zCH9b 
 
 
