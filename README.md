@@ -37,3 +37,5 @@ The commands to run to train each GNN architecture on the 3 settings (original, 
 All datasets used in this work are available in this directory: https://bit.ly/36zCH9b 
 
 
+## License
+The source code in this directory is licensed under the MIT license, which can be found in the LICENSE file.
