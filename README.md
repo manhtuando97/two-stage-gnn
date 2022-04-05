@@ -36,7 +36,7 @@ The commands to run to train each GNN architecture on the 3 settings (original, 
 ## Datasets
 | Dataset  | #Graphs     | Avg. #Nodes| Avg. #Edges |    Download    |
 | :-------:| :----------:| :--------: | :---------: | -------------- |
-| DD       |    1,168    |     269    |     676     |                |
+| DD       |    1,168    |     269    |     676     |  [Link](https://www.dropbox.com/s/91xe1ixpqdm36c5/DD.zip?dl=0)              |
 | MUTAG    |     188     |     18     |     20      |                |
 | MUTAG2   |    4,337    |     30     |     31      |                |
 | PTC-FM   |     349     |     14     |     14      |                |
