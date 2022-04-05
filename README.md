@@ -35,19 +35,19 @@ The commands to run to train each GNN architecture on the 3 settings (original, 
 
 ## Datasets
 | Dataset  | #Graphs     | Avg. #Nodes| Avg. #Edges |    Download    |
-| :-------:| :----------:| :--------: | :---------: | -------------- |
+| :-------:| :----------:| :--------: | :---------: | :------------: |
 | DD       |    1,168    |     269    |     676     |  [Link](https://www.dropbox.com/s/91xe1ixpqdm36c5/DD.zip?dl=0)              |
-| MUTAG    |     188     |     18     |     20      |                |
-| MUTAG2   |    4,337    |     30     |     31      |                |
-| PTC-FM   |     349     |     14     |     14      |                |
-| PROTEINS |    1,113    |     39     |     73      |                |
-| IMDB-B   |    1,000    |     20     |     97      |                |
-| JAN. G.  |     744     |     174    |     497     |                |
-| FEB. G.  |     648     |     175    |     503     |                |
-| MAR. G.  |     744     |     174    |     480     |                |
-| JAN. Y.  |     744     |     203    |     1,866    |                |
-| FEB. Y.  |     648     |     199    |     1,868    |                |
-| MAR. Y.  |     744     |     207    |     1,968    |                |
+| MUTAG    |     188     |     18     |     20      |  [Link](https://www.dropbox.com/s/jgpolw5m0yrpbus/MUTAG.zip?dl=0)           |
+| MUTAG2   |    4,337    |     30     |     31      |  [Link](https://www.dropbox.com/s/6mqvuktfwma4azu/MUTAG2.zip?dl=0)          |
+| PTC-FM   |     349     |     14     |     14      |  [Link](https://www.dropbox.com/s/3qtkwstgk5859pz/PTC_FM.zip?dl=0)          |
+| PROTEINS |    1,113    |     39     |     73      |  [Link](https://www.dropbox.com/s/rh3iuqpup9u9two/PROTEINS.zip?dl=0)        |
+| IMDB-B   |    1,000    |     20     |     97      |  [Link](https://www.dropbox.com/s/wc9bvyfhroiv17c/IMDB_BINARY.zip?dl=0)     |
+| JAN. G.  |     744     |     174    |     497     |  [Link](https://www.dropbox.com/s/ail6tkguc7zu1v4/Jan%20G.zip?dl=0)         |
+| FEB. G.  |     648     |     175    |     503     |  [Link](https://www.dropbox.com/s/l7p99f8jlfybff4/Feb%20G.zip?dl=0)         |
+| MAR. G.  |     744     |     174    |     480     |  [Link](https://www.dropbox.com/s/q9ely9ntvs7b01t/Mar%20G.zip?dl=0)         |
+| JAN. Y.  |     744     |     203    |     1,866    | [Link](https://www.dropbox.com/s/0yr2ri9pcwnle1q/Jan%20Y.zip?dl=0)         |
+| FEB. Y.  |     648     |     199    |     1,868    | [Link](https://www.dropbox.com/s/2ncfvcdbfct0shf/Feb%20Y.zip?dl=0)         |
+| MAR. Y.  |     744     |     207    |     1,968    | [Link](https://www.dropbox.com/s/cxxr5ajkiiwhbnr/Mar%20Y.zip?dl=0)         |
 
 
 ## License
