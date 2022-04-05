@@ -34,7 +34,20 @@ The commands to run to train each GNN architecture on the 3 settings (original, 
 
 
 ## Datasets
-All datasets used in this work are available in this directory: https://bit.ly/36zCH9b 
+| Dataset  | #Graphs     | Avg. #Nodes| Avg. #Edges |    Download    |
+| ---------| ------------| ---------- | ----------- | -------------- |
+| DD       |    1,168    |     269    |     676     |                |
+| MUTAG    |     188     |     18     |     20      |                |
+| MUTAG2   |    4,337    |     30     |     31      |                |
+| PTC-FM   |     349     |     14     |     14      |                |
+| PROTEINS |    1,113    |     39     |     73      |                |
+| IMDB-B   |    1,000    |     20     |     97      |                |
+| JAN. G.  |     744     |     174    |     497     |                |
+| FEB. G.  |     648     |     175    |     503     |                |
+| MAR. G.  |     744     |     174    |     480     |                |
+| JAN. Y.  |     744     |     203    |     1866    |                |
+| FEB. Y.  |     648     |     199    |     1868    |                |
+| MAR. Y.  |     744     |     207    |     1968    |                |
 
 
 ## License
