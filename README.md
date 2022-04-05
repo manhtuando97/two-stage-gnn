@@ -45,9 +45,9 @@ The commands to run to train each GNN architecture on the 3 settings (original, 
 | JAN. G.  |     744     |     174    |     497     |                |
 | FEB. G.  |     648     |     175    |     503     |                |
 | MAR. G.  |     744     |     174    |     480     |                |
-| JAN. Y.  |     744     |     203    |     1866    |                |
-| FEB. Y.  |     648     |     199    |     1868    |                |
-| MAR. Y.  |     744     |     207    |     1968    |                |
+| JAN. Y.  |     744     |     203    |     1,866    |                |
+| FEB. Y.  |     648     |     199    |     1,868    |                |
+| MAR. Y.  |     744     |     207    |     1,968    |                |
 
 
 ## License
